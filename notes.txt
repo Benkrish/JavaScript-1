@@ -1,0 +1,2 @@
+ecma writes about JS standards
+tc39.es JS documentation    

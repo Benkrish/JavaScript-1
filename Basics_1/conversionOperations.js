@@ -51,6 +51,20 @@ console.log(+""); // 0
 
 // learn about prefix and postfix
 
+// In js comparison (>= etc) works different than equality op(==) comparison frst convert null to 0 and then compares
+console.log(null>0);
+console.log(null==0);
+console.log(null>=0);
 
 
+// false hi aayega
+console.log(undefined>0);
+console.log(undefined==0);
+console.log(undefined>=0);
+
+
+// === strict check value + dataType ya pe conversion nhi hota == pe conversion hota hai
+console.log("2"===2); //false
+console.log("2"==2); // true yaha pe conversion hota hai
+ 
 
